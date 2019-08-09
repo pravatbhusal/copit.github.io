@@ -1,5 +1,5 @@
 main {
-  background-image: url("../assets/img/background.png");
+  background-image: url("../img/background.png");
   background-color: white;
 }
 
@@ -181,7 +181,7 @@ main {
   /* the height is 85% of the image, not the entire website */
   height: 85%;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../assets/img/austin-background.png");
+    url("../img/austin-background.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
