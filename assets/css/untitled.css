@@ -2,13 +2,13 @@ section.features .feature-item i {
   font-size: 80px;
   display: block;
   margin-bottom: 15px;
-  background: linear-gradient(270deg,#20a4f3,#C3C4C2);
+  background: linear-gradient(270deg, #20a4f3, #C3C4C2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-#mainNav .navbar-nav > li > a.active {
-  color: #20a4f3!important;
+#mainNav .navbar-nav>li>a.active {
+  color: #20a4f3 !important;
   background-color: transparent;
 }
 
@@ -47,12 +47,12 @@ a {
 }
 
 .bg-primary {
-  background: #79C8F8!important;
+  background: #79C8F8 !important;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -60,4 +60,3 @@ body {
   text-align: left;
   background-color: #fff;
 }
-
