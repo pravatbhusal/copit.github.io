@@ -1,0 +1,266 @@
+main {
+  background-image: url("../assets/img/background.png");
+  background-color: white;
+}
+
+/* Navbar */
+#navbar {
+  padding-left: 54px;
+  padding-right: 54px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: rgba(220, 220, 220, 0.05);
+  box-shadow: 0 2px 2px -2px gray;
+}
+
+#header {
+  font-size: 36px;
+}
+
+/* About */
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 850px;
+}
+
+#about-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 650px;
+}
+
+#about-text-container {
+  width: 80%;
+  text-align: left;
+}
+
+#about-text {
+  font-size: 42px;
+  color: #29A7F3
+}
+
+#download-btn {
+  margin-top: 36px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 24px;
+  border-color: black;
+  background-color: rgba(220, 220, 220, 0.05);
+}
+
+#about-demo-img {
+  height: 635px;
+  width: 315px;
+}
+
+/* Download */
+#download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 583px;
+  background-color: rgba(121, 200, 248, 0.10);
+}
+
+#download-header-container {
+  width: 650px;
+  text-align: center;
+}
+
+#download-header {
+  font-size: 56px;
+}
+
+#download-text-container {
+  margin-top: 16px;
+  width: 650px;
+  text-align: center;
+}
+
+#download-text {
+  font-size: 20px;
+}
+
+#download-btn-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+}
+
+#google-play-btn {
+  width: 200px;
+}
+
+#apple-store-btn {
+  width: 200px;
+}
+
+/* Features */
+#features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 1124px;
+}
+
+#features-header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#features-header {
+  font-size: 42px;
+}
+
+#features-subheader {
+  margin-top: 8px;
+  font-size: 18px;
+  color: rgb(128, 128, 128);
+}
+
+#features-header-hr {
+  width: 25%;
+}
+
+#features-content-container {
+  padding: 84px;
+  display: flex;
+  flex-direction: row;
+}
+
+#features-content-grid {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  margin-left: 48px;
+}
+
+#features-content-row {
+  display: flex;
+  flex-direction: row;
+}
+
+#features-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 32px;
+}
+
+#feature-icon {
+  color: #74B4D9;
+}
+
+#feature-header {
+  margin-top: 16px;
+  font-size: 24px;
+}
+
+#feature-text {
+  color: rgb(128, 128, 128);
+  font-size: 20px;
+}
+
+/* Slogan */
+#slogan {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* the height is 85% of the image, not the entire website */
+  height: 85%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/img/austin-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#slogan-spacing {
+  flex-basis: 25%;
+  width: 100%;
+  height: 100%;
+}
+
+#slogan-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-basis: 75%;
+  width: 100%;
+  height: 100%;
+}
+
+#slogan-text-container {
+  width: 500px;
+  text-align: left;
+}
+
+#slogan-text {
+  font-size: 84px;
+  color: white;
+}
+
+/* Social */
+#social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 424px;
+  background-color: rgba(121, 200, 248, 0.10);
+}
+
+#social-text-container {
+  width: 85%;
+  text-align: center;
+}
+
+#social-text {
+  font-size: 32px;
+}
+
+#social-btn-container {
+  padding: 28px;
+}
+
+.social-btn {
+  padding: 16px;
+}
+
+#twitter-btn {
+  color: #0D95E8;
+}
+
+#facebook-btn {
+  color: #344E86;
+}
+
+#email-btn {
+  color: #D73925;
+}
+
+/* Footer */
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  background-color: #222222;
+}
+
+#footer-text {
+  font-size: 12px;
+  color: #5A5A5A;
+}
