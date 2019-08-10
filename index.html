@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/brands.min.css">
 
     <!-- javascript -->
+    <script src="assets/js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -48,13 +49,13 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarText">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Download</a>
+            <a class="nav-link" href="javascript:goToDownload()">Download</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="javascript:goToFeatures()">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="javascript:goToContact()">Contact</a>
           </li>
         </ul>
       </div>
@@ -69,7 +70,9 @@
             giveaways, and more! Always know what's happening around you.
           </span>
         </div>
-        <button type="button" id="download-btn" class="btn btn-light">Download Now For Free!</button>
+        <button type="button" id="download-btn" class="btn btn-light" onclick="goToDownload()">
+          Download Now For Free!
+        </button>
       </div>
       <img id="about-demo-img" src="assets/img/iphone6-plus.png">
     </div>
@@ -85,10 +88,10 @@
         </span>
       </div>
       <div id="download-btn-container">
-        <a href="#" target="_blank">
+        <a href="https://play.google.com/store" target="_blank">
           <img id="google-play-btn" src="assets/img/google-play-btn.svg">
         </a>
-        <a href="#" target="_blank">
+        <a href="https://www.apple.com/ios/app-store/" target="_blank">
           <img id="apple-store-btn" src="assets/img/apple-store-btn.svg">
         </a>
       </div>
@@ -150,9 +153,11 @@
       <div id="slogan-spacing"></div>
       <div id="slogan-content">
         <div id="slogan-text-container">
-          <span id="slogan-text">Stop Missing Out. Get Active! </span>
+          <span id="slogan-text">Many things Await. Get Active! </span>
         </div>
-        <button type="button" id="download-btn" class="btn btn-light">Download!</button>
+        <button type="button" id="download-btn" class="btn btn-light" onclick="goToDownload()">
+          Download!
+        </button>
       </div>
     </div>
 
@@ -165,10 +170,10 @@
         </span>
       </div>
       <div id="social-btn-container">
-        <a href="#" target="_blank">
+        <a href="https://www.twitter.com/" target="_blank">
           <i id="twitter-btn" class="social-btn fab fa-twitter fa-5x"></i>
         </a>
-        <a href="#" target="_blank">
+        <a href="https://www.facebook.com/" target="_blank">
           <i id="facebook-btn" class="social-btn fab fa-facebook fa-5x"></i>
         </a>
         <a href="mailto:freatechnology@gmail.com">

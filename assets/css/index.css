@@ -115,6 +115,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
 #features-header {
@@ -263,4 +264,116 @@ main {
 #footer-text {
   font-size: 12px;
   color: #5A5A5A;
+}
+
+/* Media Queries for Mobile and Tablets */
+@media (min-width: 320px) and (max-width: 1024px) {
+
+  /* About */
+  #about {
+    flex-direction: column;
+    height: 1200px;
+  }
+
+  #about-content-container {
+    align-items: center;
+    width: 100%;
+  }
+
+  #about-text-container {
+    text-align: center;
+  }
+
+  #about-text {
+    font-size: 32px;
+  }
+
+  #about-demo-img {
+    margin-top: 24px;
+  }
+
+  /* Download */
+  #download-header-container {
+    width: 75%;
+  }
+
+  #download-header {
+    font-size: 36px;
+  }
+
+  #download-text-container {
+    width: 75%;
+  }
+
+  #download-text {
+    font-size: 18px;
+  }
+
+  #download-btn-container {
+    flex-direction: column;
+  }
+
+  #google-play-btn {
+    margin-bottom: 16px;
+  }
+
+  /* Features */
+  #features {
+    height: 2400px;
+  }
+
+  #features-header {
+    font-size: 36px;
+  }
+
+  #features-content-container {
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #features-content-grid {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  #features-content-row {
+    flex-direction: column;
+  }
+
+  /* Slogan */
+  #slogan {
+    flex-direction: column;
+  }
+
+  #slogan-spacing {
+    flex-basis: 0%;
+    width: 100%;
+    height: 100%;
+  }
+
+  #slogan-content {
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+  }
+
+  #slogan-text-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  #slogan-text {
+    font-size: 48px;
+  }
+
+  /* Social */
+  #social {
+    height: 760px;
+  }
+
+  #social-btn-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
