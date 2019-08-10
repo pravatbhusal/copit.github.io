@@ -14,7 +14,12 @@ main {
 }
 
 #header {
+  font-family: "Red Hat Text", sans-serif;
   font-size: 36px;
+}
+
+.nav-link {
+  font-family: "Lato", sans-serif;
 }
 
 /* About */
@@ -38,6 +43,7 @@ main {
 }
 
 #about-text {
+  font-family: "Red Hat Text", sans-serif;
   font-size: 42px;
   color: #29A7F3
 }
@@ -51,11 +57,12 @@ main {
   border-radius: 24px;
   border-color: black;
   background-color: rgba(220, 220, 220, 0.05);
+  font-family: "Red Hat Text", sans-serif;
 }
 
 #about-demo-img {
-  height: 600px;
-  width: 354px;
+  height: 635px;
+  width: 315px;
 }
 
 /* Download */
@@ -74,6 +81,7 @@ main {
 }
 
 #download-header {
+  font-family: "Red Hat Text", sans-serif;
   font-size: 56px;
 }
 
@@ -84,6 +92,7 @@ main {
 }
 
 #download-text {
+  font-family: "Red Hat Text", sans-serif;
   font-size: 20px;
 }
 
@@ -119,11 +128,13 @@ main {
 }
 
 #features-header {
+  font-family: "Red Hat Text", sans-serif;
   font-size: 42px;
 }
 
 #features-subheader {
   margin-top: 8px;
+  font-family: "Red Hat Text", sans-serif;
   font-size: 18px;
   color: rgb(128, 128, 128);
 }
@@ -165,11 +176,13 @@ main {
 
 #feature-header {
   margin-top: 16px;
+  font-family: "Red Hat Text", sans-serif;
   font-size: 24px;
 }
 
 #feature-text {
   color: rgb(128, 128, 128);
+  font-family: "Red Hat Text", sans-serif;
   font-size: 20px;
 }
 
@@ -209,6 +222,7 @@ main {
 }
 
 #slogan-text {
+  font-family: "Red Hat Text", sans-serif;
   font-size: 84px;
   color: white;
 }
@@ -229,6 +243,7 @@ main {
 }
 
 #social-text {
+  font-family: "Red Hat Text", sans-serif;
   font-size: 32px;
 }
 
@@ -262,6 +277,7 @@ main {
 }
 
 #footer-text {
+  font-family: "Red Hat Text", sans-serif;
   font-size: 12px;
   color: #5A5A5A;
 }
